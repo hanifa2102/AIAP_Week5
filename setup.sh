@@ -1,4 +1,5 @@
 wget http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
+tar -xzf aclImdb_v1.tar.gz
 
 rm -rf aclImdb/train/unsup/1*
 rm -rf aclImdb/train/unsup/2*
