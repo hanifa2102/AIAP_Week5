@@ -6,3 +6,6 @@ rm -rf aclImdb/train/unsup/2*
 rm -rf aclImdb/train/unsup/3*
 rm -rf aclImdb/train/unsup/4*
 rm -rf aclImdb/train/unsup/5*
+
+mv aclImdb/train/unsup aclImdb/
+mv aclImdb/train/*unsup* aclImdb/
